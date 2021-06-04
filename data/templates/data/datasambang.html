@@ -1,0 +1,68 @@
+{% extends "data/main.html" %}
+
+{% block content %}
+
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card card-body">
+                <h5>Pengunjung:</h5>
+                <hr>
+                <a class="btn btn-outline-info btn-sm btn-
+block" href="">Update Data Pengunjung</a>
+                <a class="btn btn-outline-danger btn-sm btn-
+block" href="">Delete Data Pengunjung</a>
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-body">
+                <h5>Data Pengunjung</h5>
+                <hr>
+                <p>Wali 1: </p>
+                <p>Wali 2: </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-body">
+                <h5>Total Pengunjung</h5>
+                <hr>
+                <h1 style="text-align: center;padding: 10px"></h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="card card-body">
+                <form method="get">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md">
+            <div class="card card-body">
+                <table class="table table-sm">
+                    <tr>
+                        <th>Nama Wali Santri</th>
+                        <th>Nama Santri</th>
+                        <th>Wilayah</th>
+                        <th>Tertanggal</th>
+                        <th>Status</th>
+                        <th>Update</th>
+                        <th>Remove</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

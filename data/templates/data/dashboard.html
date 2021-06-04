@@ -1,0 +1,47 @@
+{% extends "data/main.html" %}
+
+{% block content %}
+{% include "data/status.html" %}
+
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5">
+            <h5>PENGUNJUNG</h5>
+            <hr>
+            <div class="card card-body">
+                <a class="btn btn-primary btn-sm btn-
+block" href="">Tambah Pendaftar</a>
+                <table class="table table-sm">
+                    <tr>
+                        <th></th>
+                        <th>Nama Wali Santri</th>
+                        <th>Nama Santri</th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <div class="col-md-7">
+            <h5>PENDAFTAR TERBARU</h5>
+            <hr>
+            <div class="card card-body">
+                <a class="btn btn-primary btn-sm btn-
+block" href="">Lihat Data Lengkapnya</a>
+                <table class="table table-sm">
+                    <tr>
+                        <th>Wali Santri</th>
+                        <th>Santri</th>
+                        <th>Alamat</th>
+                        <th>Tertanggal</th>
+                        <th>Update</th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
