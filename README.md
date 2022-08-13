@@ -1,3 +1,1 @@
 # sambang
-# sambang
-# sambang
